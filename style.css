@@ -1,0 +1,131 @@
+* {
+  background-color: white;
+  font-family: arial;
+}
+
+html {
+  border: 3px solid black;
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav,
+a,
+h1,
+p,
+figure,
+blockquote,
+figcaption,
+ul,
+li {
+  background-color: inherit;
+}
+
+figure {
+  background-color: rgb(228, 228, 228);
+  padding: 0.5em 1em 1.5em;
+  border-radius: 3px;
+}
+
+blockquote {
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+header {
+  display: flex;
+  flex: 0;
+  background-color: black;
+  color: white;
+  height: fit-content;
+}
+
+.brand {
+  font-size: 2em;
+  justify-content: flex-start;
+  padding-left: 0.5em;
+  font-family: Arial Black;
+  flex: 1;
+  margin: 5px;
+}
+
+nav {
+  display: flex;
+  font-size: 1.25em;
+  padding: 0.5em;
+  justify-content: end;
+  flex: 1;
+  gap: 1em;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin: 1em;
+  flex: 4;
+}
+
+aside {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  list-style-type: none;
+  margin-top: 0px;
+  justify-content: space-between;
+  gap: 15px;
+  width: auto;
+  flex: 1;
+  justify-content: flex-start;
+}
+
+article {
+  flex: 4;
+}
+
+li {
+  background-color: rgb(191, 24, 24);
+  color: white;
+  padding: 10px;
+  max-width: fi;
+  min-width: 6em;
+  border-radius: 4px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(44, 95, 190);
+  color: white;
+  flex: 0;
+  font-family: Arial Black;
+  font-size: 1.5em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 8px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
